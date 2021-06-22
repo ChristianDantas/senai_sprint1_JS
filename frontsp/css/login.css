@@ -1,3 +1,4 @@
+
 body{
     background-color: #F6F6E9;
     
@@ -13,12 +14,24 @@ body{
 .ok{
     display: flex;
    justify-content: space-around;
-
+    
    width:100%;
    height: 50%;
 }
 .ok2{
     height: 20%;
+    
+}
+.logo-login{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+.logo{
+    width: 57%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .logo img{
 /* Group 72 */
@@ -45,17 +58,41 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
 }
-.email{
-width: 75%;
-height: 60%;
+.email input{
+width: 60%;
+height: 20px;
 background: #D2A3FF;
 border-radius: 10px;
-margin-bottom: 1em;
+margin-bottom: 13px;
 }
-.senha{
-    width: 75%;
-    height: 60%;
+.senha input{
+    width: 60%;
+    height: 20px;
     background: #D2A3FF;
     border-radius: 10px;
     
+    }
+.inputs ::placeholder{
+    color: white;
+}
+.email ::placeholder{
+    padding-left: 40%;
+}
+
+.senha ::placeholder{
+    padding-left: 39%;
+}
+
+.logar input{
+
+width: 20em;
+height: 6em;
+
+background: #A363E0;
+border-radius: 160px;
+
+}
+.input [type=submit] ::placeholder {
+    color: white;
+    font-family: MODERNA;
     }
